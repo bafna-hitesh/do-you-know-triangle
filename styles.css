@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    width: 90%;
+    margin: 50px auto;  
+    background:url("https://web-static.wrike.com/blog/content/uploads/2020/05/Understanding-the-Project-Management-Triangle-1-896x518.jpg?av=656216270a33c1397ee498cbe9e14931");
+    background-position:center;
+    background-position-y: -5px;
+    background-size: cover; 
+}
+
+.head{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom:50px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.box{
+    background-color:hsla(49, 100%, 52%, 0.199);
+    border:2px solid ;
+    padding: 2rem;
+    font-size: 30px;
+    margin: 1rem 1rem 1.5rem 0.2rem;
+    height: 30px;
+    width: 60px;
+    overflow: scroll;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+#enter-btn{
+    background-color: #10455b;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-style: bold;
+    font-size: 20px;
+    padding: 1rem 4rem;
+    margin: 1rem 0 1rem 0;
+}
+
+#output{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    font-size: 30px;
+
+}
+nav{
+    margin: 2rem auto;
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    background-color:#10455b;
+}
+nav a{
+    color: white;
+    text-decoration: wavy;
+}
+
+#enter-btn:hover{
+    background: white;
+    color:tomato;
+}
+nav:hover{
+    background:white;
+    border: 2px solid;
+    
+}
+nav a:hover{
+    color: tomato;
+}
+#output{
+    color:orangered;
+    font-size: 2rem;
+    color: black;
+    font-size: 30px;
+    border: 2px solid #10455b;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+/* hypotenuse part css */
+
+label{
+    font-size: 30px;
+    font-weight: 800;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.box1{
+    background-color:hsla(49, 100%, 52%, 0.199);
+    border:2px solid ;
+    padding: 2rem;
+    font-size: 30px;
+    margin: auto 1.2rem;
+    height: 30px;
+    width: 60px;
+    overflow: scroll;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.calculate-btn{
+    background-color: #10455b;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-style: bold;
+    font-size: 20px;
+    padding: 1rem 4rem;
+    margin: 2.5rem 0 1rem 0;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 2rem 0 1rem 0;
+}
+.output{
+    color:orangered;
+    font-size: 2rem;
+    color: black;
+    font-size: 30px;
+    border: 2px solid #10455b;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+.calculate-btn:hover{
+    background: white;
+    color:tomato;
+}
+
+
