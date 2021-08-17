@@ -18,9 +18,14 @@ body{
 
 .head{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom:50px;
-    color:linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: white;
+}
+
+.head h2{
+   font-weight: 600;
+   font-size: 35px;
 }
 
 .row{
@@ -46,7 +51,7 @@ body{
     
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .card:hover {
@@ -60,12 +65,41 @@ a{
       
   }
 
+  .footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 60px;
+    background-color: #D0DAEE;
+    padding: 20px 0;
+    
+}
+.footer .list{
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer .list a{
+    font-size: 30px;
+    width: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+}
 
 
-
-
-
-
+@media screen and (max-width: 550px) {
+    .head{
+        font-size: 15px;
+    }
+    #subtitle{
+        padding-top: 1rem;
+    }
+}
 
 /* 
 .card{
