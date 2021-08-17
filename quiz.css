@@ -27,6 +27,14 @@ nav a{
     color: white;
     text-decoration: wavy;
 }
+
+nav:hover{
+    background:white;
+    border: 2px solid;  
+}
+nav a:hover{
+    color: tomato;
+}
 .head{
     text-align: center;
     font-size: 30px;
