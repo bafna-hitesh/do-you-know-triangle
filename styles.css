@@ -9,7 +9,7 @@
 body{
     width: 90%;
     margin: 50px auto;  
-    background:url("https://web-static.wrike.com/blog/content/uploads/2020/05/Understanding-the-Project-Management-Triangle-1-896x518.jpg?av=656216270a33c1397ee498cbe9e14931");
+    background:url("https://web-static.wrike.com/blog/content/uploads/2020/05/Understanding-the-Project-Management-Triangle-1-896x518.jpg?av=656216270a33c1397ee498cbe9e14931") no-repeat;
     background-position:center;
     background-position-y: -5px;
     background-size: cover; 
