@@ -5,6 +5,9 @@
     padding: 0;
     font-family:'Courier New', Courier, monospace;
 }
+:root{
+    --shadow: 10px 10px 15px -2px rgba(145, 19, 103, 0.6);
+}
 body{
    background: url("https://i.pinimg.com/originals/96/f9/30/96f93060084041a239833eaa77286cdf.gif");
     background-position: center;
@@ -57,12 +60,14 @@ a{
 .card:hover {
     border: 3px dotted #ff7a59;
     color: #ff7a59;
-    background: #fff;
+    background: #ff7a59;
+    box-shadow: var(--shadow);
+    
   }
   
-  a:hover{
-      color: blue;
-      
+  a h1:hover{
+      color: #fff;
+      box-shadow:var(--hover-shadow);
   }
 
   .footer{

@@ -67,6 +67,7 @@ nav{
     width: fit-content;
     padding: 0.5rem 1rem;
     border-radius: 1.5rem;
+    border: 2px solid #10455b;  
     background-color:#10455b;
 }
 nav a{
@@ -79,8 +80,7 @@ nav a{
     color:tomato;
 }
 nav:hover{
-    background:white;
-    border: 2px solid;  
+    background-color: #fff;
 }
 nav a:hover{
     color: tomato;

@@ -2,6 +2,7 @@ const sideInput = document.querySelectorAll(".side-input");
 const btn = document.querySelector("#btn");
 const output = document.querySelector(".output");
 
+btn.addEventListener("click", calculateHypotenuse);
 
 function calculateSumOfSqure(a,b){
 
@@ -17,5 +18,3 @@ function calculateHypotenuse(){
 
 }
 
-
-btn.addEventListener("click", calculateHypotenuse);
